@@ -1,0 +1,70 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-bubble {
+  background-color: #333;
+  color: #0ff;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.chat-bubble.user {
+  background-color: #555;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.chat-avatar {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #0ff;
+}
+
+.voice-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #111;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.voice-button .mic-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
